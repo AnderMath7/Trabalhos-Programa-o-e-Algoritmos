@@ -1,4 +1,4 @@
-Faça um prograna que receba como dados de entrada 5 números inteiros. Obs.: O programa só pode ter duas váriaveis.
+//Faça um prograna que receba como dados de entrada 5 números inteiros. Obs.: O programa só pode ter duas váriaveis.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,16 +7,10 @@ Faça um prograna que receba como dados de entrada 5 números inteiros. Obs.: O 
 main(){
 	setlocale(LC_ALL, "portuguese");
 	int count, numero;
-	
-	if(count>=1){
-		for(count=1;count<6;count++){
-			printf("Digite um número: ");
-			scanf("%d",&numero);
-		}
-	}else{
-		for(count=1;count<6;count++){
-			printf("Digite outro número: ");
-			scanf("%d",&numero);
-		}
+
+	for(count=1;count<=5;count++){
+		printf("Insira um valor: ");
+		scanf("%d",&numero);
 	}
+	
 }
