@@ -1,0 +1,23 @@
+Exercícios da Aula
+1. Escreva um aplicativo que solicita ao usuário inserir dois inteiros, obtém do usuário esses
+números e imprime sua soma, produto, diferença e divisão.
+
+2. Escreva um aplicativo que exibe uma caixa, uma oval, uma seta e um losango utilizando
+asteriscos (*).
+
+3. Escreva um aplicativo que lê um inteiro, determina e imprime se ele é ímpar ou par.
+
+4. Escreva um aplicativo que insere um número consistindo em cinco dígitos do usuário, separa o
+número em seus dígitos individuais e imprime os dígitos separados uns dos outros por três
+espaços cada. Por exemplo, se o usuário digitar o número 42339, o programa deve imprimir: 4
+2 3 3 9.
+
+5. Escreva um aplicativo que receba a, b e c, coeficientes de uma equação do segundo grau, e
+calcule as raízes xʼ e xˮ através da fórmula de Báskara.
+
+6. Escreva um programa que leia a quantidade em segundos e imprima o resultado em dias,
+horas, minutos e segundos.
+
+7. Escreva um programa que converta uma temperatura digitada em "Cˮ em “Fˮ. A fórmula para
+essa conversão é:
+F = 9/5C + 32
