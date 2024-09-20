@@ -10,22 +10,22 @@ app.get('/', function(req, res){
 });
 
 app.get('/somar/:n1/:n2', function(req, res){
-    let resultado = parseInt(req.params.n1) + parseInt(req.params.n2);
+    let resultado = calc.soma(parseInt(req.params.n1), parseInt(req.params.n2));
     res.send(`${req.params.n1} + ${req.params.n2} = ${resultado}`);
 })
 
 app.get('/subtrair/:n1/:n2', function(req, res){
-    let resultado = parseInt(req.params.n1) - parseInt(req.params.n2);
+    let resultado = calc.sub(parseInt(req.params.n1), parseInt(req.params.n2));
     res.send(`${req.params.n1} - ${req.params.n2} = ${resultado}`);
 })
 
 app.get('/multiplicar/:n1/:n2', function(req, res){
-    let resultado = parseInt(req.params.n1) * parseInt(req.params.n2);
+    let resultado = calc.mult(parseInt(req.params.n1), parseInt(req.params.n2));
     res.send(`${req.params.n1} * ${req.params.n2} = ${resultado}`);
 })
 
 app.get('/dividir/:n1/:n2', function(req, res){
-    let resultado = parseInt(req.params.n1) / parseInt(req.params.n2);
+    let resultado = calc.div(parseInt(req.params.n1), parseInt(req.params.n2));
     res.send(`${req.params.n1} / ${req.params.n2} = ${resultado}`);
 })
 
