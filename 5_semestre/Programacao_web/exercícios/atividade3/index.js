@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
-    res.send('CALCULADORA:<br>Acrescente:  <br>"/soma/(numero1)/(numero2)" para somar<br>"/subtrair/(numero1)/(numero2)" para subtrair'+
+    res.send('CALCULADORA:<br>Acrescente:  <br>"/somar/(numero1)/(numero2)" para somar<br>"/subtrair/(numero1)/(numero2)" para subtrair'+
         '<br>"/multiplicar/(numero1)/(numero2)" para multiplicar<br>"/dividir/(numero1)/(numero2)" para dividir'
     );
 });
