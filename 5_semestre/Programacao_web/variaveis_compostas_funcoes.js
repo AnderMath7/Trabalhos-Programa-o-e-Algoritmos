@@ -36,6 +36,7 @@ let A = [
     [1, 2, 1]
 ];
 console.log(A[2][1]);
+console.log("oi");
 
 //objeto
 let capitais = {
